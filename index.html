@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>緊緻小臉刮痧神器組｜抗氧化1094精華油 × 溫潤經絡梳</title>
+<meta name="description" content="以油養膚，喚醒肌膚自癒力。抗氧化1094精華油（專利配方）＋溫潤經絡梳，一滴鎖水、刮走壓力，找回緊緻輪廓。芳療教母 LIZA 嚴選。">
+<meta property="og:title" content="緊緻小臉刮痧神器組｜抗氧化1094精華油 × 溫潤經絡梳">
+<meta property="og:description" content="以油養膚，喚醒肌膚自癒力。一滴鎖水，刮走壓力，找回緊緻輪廓。">
+<meta property="og:image" content="images/hero.jpg">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@400;500;600;700&family=Noto+Sans+TC:wght@300;400;500;700&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+
+<style>
+  :root{
+    --green:#1f463f; --green-2:#346b61; --gold:#b08d57; --gold-l:#cdb487;
+    --blush:#eadfd9; --blush-bg:#f6efea; --cream:#faf6f0;
+    --ink:#3a3a36; --muted:#8b857d; --line-green:#06c755; --price-red:#b5462f;
+    --maxw:620px;
+  }
+  *{box-sizing:border-box;margin:0;padding:0;}
+  html{scroll-behavior:smooth;}
+  body{font-family:"Noto Sans TC",sans-serif;color:var(--ink);background:#e7e0d8;
+    line-height:1.85;font-weight:300;-webkit-font-smoothing:antialiased;letter-spacing:.3px;padding-bottom:78px;}
+  .wrap{max-width:var(--maxw);margin:0 auto;background:var(--cream);overflow:hidden;}
+  .serif{font-family:"Noto Serif TC",serif;}
+  img{display:block;max-width:100%;}
+  section{padding:60px 28px;}
+  .eyebrow{font-family:"Cormorant Garamond",serif;font-style:italic;color:var(--gold);font-size:19px;letter-spacing:2px;margin-bottom:10px;}
+  .htitle{font-family:"Noto Serif TC",serif;font-weight:500;color:var(--green);font-size:27px;line-height:1.5;margin-bottom:8px;}
+  .center{text-align:center;}
+  .rule{width:46px;height:1px;background:var(--gold);margin:18px auto 26px;}
+  .reveal{opacity:0;transform:translateY(24px);transition:all .9s cubic-bezier(.2,.7,.2,1);}
+  .reveal.in{opacity:1;transform:none;}
+
+  /* 頂部 */
+  .topbar{position:sticky;top:0;z-index:30;display:flex;align-items:center;justify-content:space-between;
+    background:rgba(250,246,240,.9);backdrop-filter:blur(10px);padding:12px 20px;border-bottom:1px solid #e9e0d6;}
+  .topbar .bk{font-family:"Cormorant Garamond",serif;font-size:22px;color:var(--green);letter-spacing:3px;}
+  .topbar .mini{background:var(--line-green);color:#fff;text-decoration:none;font-size:13px;font-weight:500;padding:7px 15px;border-radius:22px;}
+
+  /* HERO */
+  .hero{position:relative;padding:0;}
+  .hero .img{position:relative;}
+  .hero .img img{width:100%;aspect-ratio:1/1;object-fit:cover;}
+  .hero .img::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(31,70,63,0) 40%,rgba(31,70,63,.55) 100%);}
+  .hero .cap{position:absolute;left:0;right:0;bottom:0;z-index:2;padding:28px;color:#fff;text-align:center;}
+  .hero .badge{display:inline-block;border:1px solid rgba(255,255,255,.7);color:#fff;font-size:11px;letter-spacing:3px;padding:5px 14px;border-radius:2px;margin-bottom:14px;}
+  .hero h1{font-family:"Noto Serif TC",serif;font-weight:600;font-size:33px;line-height:1.45;letter-spacing:2px;text-shadow:0 2px 16px rgba(0,0,0,.3);}
+  .hero h1 small{display:block;font-family:"Cormorant Garamond",serif;font-size:15px;letter-spacing:5px;margin-top:8px;font-weight:400;opacity:.9;}
+  .hero .lead{padding:30px 28px 6px;text-align:center;color:var(--muted);font-size:16px;line-height:2;}
+
+  /* 氛圍影片 */
+  .mood{position:relative;padding:0;background:#000;}
+  .mood video{width:100%;aspect-ratio:9/16;max-height:78vh;object-fit:cover;display:block;opacity:.96;}
+  .mood .overlay{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;
+    color:#fff;background:linear-gradient(180deg,rgba(0,0,0,.25),rgba(0,0,0,.1) 30%,rgba(0,0,0,.45));pointer-events:none;padding:28px;}
+  .mood .overlay .e{font-family:"Cormorant Garamond",serif;font-style:italic;font-size:18px;letter-spacing:2px;opacity:.95;}
+  .mood .overlay h2{font-family:"Noto Serif TC",serif;font-weight:500;font-size:26px;line-height:1.6;margin-top:8px;text-shadow:0 2px 14px rgba(0,0,0,.4);}
+
+  /* 引言 */
+  .quote{background:var(--blush-bg);text-align:center;}
+  .quote .mark{font-family:"Cormorant Garamond",serif;font-size:60px;color:var(--blush);line-height:0;}
+  .quote .big{font-family:"Noto Serif TC",serif;color:var(--green);font-size:24px;line-height:1.85;font-weight:500;}
+  .quote .big em{font-style:normal;color:var(--gold);border-bottom:2px solid var(--blush);padding-bottom:2px;}
+
+  /* 三大主張 */
+  .pillars{background:var(--green);color:#fff;}
+  .pillars .htitle{color:#fff;} .pillars .eyebrow{color:var(--gold-l);}
+  .pcol{display:flex;flex-direction:column;gap:24px;}
+  .pcard{border:1px solid rgba(255,255,255,.18);border-radius:8px;padding:24px 22px;}
+  .pcard .n{font-family:"Cormorant Garamond",serif;font-size:30px;color:var(--gold-l);display:block;margin-bottom:4px;}
+  .pcard h3{font-family:"Noto Serif TC",serif;font-weight:500;font-size:20px;margin-bottom:8px;letter-spacing:1px;}
+  .pcard p{color:rgba(255,255,255,.78);font-size:14.5px;}
+
+  /* 破除疑慮 */
+  .myth .row{display:flex;gap:14px;align-items:flex-start;padding:18px 0;border-bottom:1px dashed #e3d8cd;}
+  .myth .row:last-child{border-bottom:none;}
+  .myth .q{flex:0 0 92px;color:var(--muted);font-size:14px;}
+  .myth .q b{display:block;color:var(--green);font-weight:500;font-size:16px;}
+  .myth .a{flex:1;font-size:15px;} .myth .a::before{content:"→ ";color:var(--gold);}
+
+  /* 成分 */
+  .ingredients{background:var(--blush-bg);}
+  .igrid{display:grid;grid-template-columns:1fr 1fr 1fr;gap:10px;margin-bottom:22px;}
+  .igrid figure{background:#fff;border-radius:10px;overflow:hidden;box-shadow:0 6px 18px rgba(120,90,60,.08);}
+  .igrid img{width:100%;aspect-ratio:1/1;object-fit:cover;}
+  .igrid figcaption{padding:8px 4px 12px;text-align:center;}
+  .igrid .en{font-family:"Cormorant Garamond",serif;font-style:italic;color:var(--gold);font-size:12px;display:block;}
+  .igrid .zh{font-family:"Noto Serif TC",serif;color:var(--green);font-size:14px;font-weight:500;}
+  .ingredients p.desc{font-size:14.5px;color:#5f5a52;text-align:center;}
+
+  /* 保養儀式 (demo 影片) */
+  .ritual{background:var(--cream);}
+  .ritual .vwrap{position:relative;border-radius:14px;overflow:hidden;box-shadow:0 14px 36px rgba(31,70,63,.18);margin-bottom:8px;}
+  .ritual video{width:100%;aspect-ratio:9/16;max-height:74vh;object-fit:cover;display:block;background:#000;}
+  .ritual .tag{display:inline-block;background:var(--gold);color:#fff;font-size:12px;letter-spacing:2px;padding:4px 12px;border-radius:20px;margin-bottom:14px;}
+  .steps{margin-top:30px;}
+  .step{display:flex;gap:16px;align-items:flex-start;padding:16px 0;border-bottom:1px solid #efe6db;}
+  .step:last-child{border-bottom:none;}
+  .step .no{flex:0 0 38px;height:38px;border-radius:50%;background:var(--green);color:#fff;display:flex;align-items:center;justify-content:center;font-family:"Cormorant Garamond",serif;font-size:18px;}
+  .step .tx{font-size:14.5px;} .step .tx b{color:var(--green);font-weight:500;}
+
+  /* 數據 */
+  .stats{background:var(--green);color:#fff;text-align:center;}
+  .stats .htitle{color:#fff;}
+  .grid3{display:flex;justify-content:center;gap:12px;margin:8px 0 24px;}
+  .stat{flex:1 1 0;border:1px solid rgba(255,255,255,.2);border-radius:10px;padding:22px 8px;}
+  .stat .num{font-family:"Cormorant Garamond",serif;font-size:38px;color:var(--gold-l);line-height:1;}
+  .stat .lab{font-size:12.5px;color:rgba(255,255,255,.82);margin-top:8px;letter-spacing:1px;}
+  .seal{display:inline-block;border:1px solid var(--gold-l);color:var(--gold-l);border-radius:30px;padding:8px 18px;font-size:13px;letter-spacing:1px;}
+
+  /* 愛用者 */
+  .reviews{background:var(--blush-bg);}
+  .rcard{background:#fff;border-radius:12px;padding:22px;margin-bottom:16px;box-shadow:0 6px 18px rgba(120,90,60,.07);}
+  .rcard .top{display:flex;align-items:center;gap:12px;margin-bottom:10px;}
+  .rcard .av{width:42px;height:42px;border-radius:50%;background:var(--blush);color:var(--green);display:flex;align-items:center;justify-content:center;font-family:"Noto Serif TC",serif;font-size:18px;}
+  .rcard .who b{color:var(--green);font-weight:500;} .rcard .who .st{color:var(--gold);font-size:13px;letter-spacing:2px;}
+  .rcard p{font-size:14.5px;color:#54504a;}
+
+  /* 套組 */
+  .set{background:var(--cream);text-align:center;}
+  .set img{width:100%;max-width:380px;margin:0 auto 22px;border-radius:12px;}
+  .set .item{font-size:16px;margin:4px 0;}
+  .set .item b{color:var(--green);font-family:"Noto Serif TC",serif;}
+  .set .small{color:var(--muted);font-size:13px;margin-top:8px;}
+
+  /* LIZA */
+  .endorse{background:var(--blush-bg);text-align:center;}
+  .endorse img{width:100%;max-width:420px;margin:0 auto 18px;border-radius:12px;}
+  .endorse .nm{font-family:"Noto Serif TC",serif;color:var(--green);font-size:22px;font-weight:500;}
+  .endorse .ti{color:var(--muted);font-size:14px;margin-top:4px;}
+
+  /* FAQ */
+  details{border-bottom:1px solid #e9e0d6;padding:16px 2px;}
+  summary{font-family:"Noto Serif TC",serif;color:var(--green);font-size:16px;font-weight:500;cursor:pointer;list-style:none;display:flex;justify-content:space-between;align-items:center;gap:10px;}
+  summary::-webkit-details-marker{display:none;}
+  summary::after{content:"＋";color:var(--gold);font-size:20px;}
+  details[open] summary::after{content:"－";}
+  details p{margin-top:12px;font-size:14.5px;color:#5f5a52;}
+
+  /* 規格 */
+  .spec{background:var(--cream);}
+  .spec table{width:100%;border-collapse:collapse;font-size:14px;}
+  .spec td{padding:12px 6px;border-bottom:1px solid #e6dccf;vertical-align:top;}
+  .spec td.k{color:var(--green);font-family:"Noto Serif TC",serif;width:90px;white-space:nowrap;}
+
+  /* 結帳 + 折扣碼 */
+  .checkout{background:var(--green);color:#fff;text-align:center;}
+  .checkout .name{font-family:"Noto Serif TC",serif;font-size:23px;font-weight:500;letter-spacing:1px;}
+  .checkout .sp{color:rgba(255,255,255,.75);font-size:14px;margin:8px 0 20px;}
+  .priceBox{margin:0 auto 6px;}
+  .priceBox .po{color:rgba(255,255,255,.6);font-size:18px;}
+  .priceBox .po s{opacity:.85;}
+  .priceBox .pn{font-size:50px;font-family:"Cormorant Garamond",serif;color:#fff;line-height:1;margin:4px 0;}
+  .priceBox .pn small{font-size:24px;}
+  .saveTag{display:inline-block;background:var(--gold-l);color:var(--green);font-size:13px;font-weight:700;padding:5px 14px;border-radius:20px;margin-top:6px;letter-spacing:1px;opacity:0;height:0;overflow:hidden;transition:opacity .4s;}
+  .saveTag.show{opacity:1;height:auto;margin-bottom:6px;}
+
+  /* 折扣碼輸入 */
+  .coupon{background:rgba(255,255,255,.07);border:1px dashed rgba(255,255,255,.45);border-radius:12px;padding:18px;margin:22px auto 26px;max-width:420px;}
+  .coupon .lab{font-size:13px;color:var(--gold-l);letter-spacing:2px;margin-bottom:10px;}
+  .coupon .row{display:flex;gap:8px;}
+  .coupon input{flex:1;border:none;border-radius:8px;padding:13px 14px;font-size:16px;letter-spacing:2px;text-align:center;color:var(--green);font-family:"Noto Sans TC";}
+  .coupon input:focus{outline:2px solid var(--gold-l);}
+  .coupon button{background:var(--gold);color:#fff;border:none;border-radius:8px;padding:0 20px;font-size:15px;font-weight:700;letter-spacing:1px;cursor:pointer;}
+  .coupon button:active{transform:scale(.97);}
+  .coupon .msg{font-size:13px;margin-top:10px;min-height:18px;}
+  .coupon .msg.ok{color:#aef0c4;} .coupon .msg.err{color:#ffc9bd;}
+
+  .btn-line{display:flex;align-items:center;justify-content:center;gap:10px;max-width:400px;margin:0 auto;
+    background:var(--line-green);color:#fff;text-decoration:none;font-size:19px;font-weight:700;padding:17px;border-radius:14px;box-shadow:0 10px 26px rgba(6,199,85,.3);}
+  .btn-line:active{transform:scale(.98);}
+  .checkout .hint{color:rgba(255,255,255,.6);font-size:12px;margin-top:14px;}
+
+  /* 頁尾 */
+  footer{background:var(--cream);text-align:center;padding:40px 28px 56px;color:var(--muted);font-size:12px;}
+  footer .lg{font-family:"Cormorant Garamond",serif;font-size:30px;color:var(--green);letter-spacing:4px;}
+  footer .slo{color:var(--gold);font-size:13px;letter-spacing:2px;margin:6px 0 18px;}
+  footer .note{line-height:1.9;font-size:11.5px;color:#a39c92;margin-top:14px;}
+
+  /* 底部固定條 */
+  .stickybar{position:fixed;left:0;right:0;bottom:0;z-index:40;max-width:var(--maxw);margin:0 auto;
+    background:rgba(250,246,240,.97);backdrop-filter:blur(10px);border-top:1px solid #e7ddd0;padding:9px 14px;
+    display:flex;align-items:center;gap:12px;box-shadow:0 -6px 22px rgba(0,0,0,.07);}
+  .stickybar .p{flex:0 0 auto;line-height:1.15;text-align:left;}
+  .stickybar .p .o{color:var(--muted);font-size:11px;}
+  .stickybar .p .o s{opacity:.8;}
+  .stickybar .p .n{color:var(--price-red);font-size:21px;font-weight:700;font-family:"Cormorant Garamond",serif;}
+  .stickybar a{flex:1;display:flex;align-items:center;justify-content:center;gap:6px;background:var(--line-green);color:#fff;text-decoration:none;font-weight:700;font-size:16px;padding:13px;border-radius:12px;}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <div class="topbar">
+    <span class="bk">d'odeurs</span>
+    <a class="mini" href="LINE_連結放這" target="_blank" rel="noopener"> LINE 訂購</a>
+  </div>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="img">
+      <img src="images/hero.jpg" alt="緊緻小臉刮痧神器組 抗氧化1094精華油">
+      <div class="cap">
+        <span class="badge">CLEAN BEAUTY ｜ 100% 植物萃取</span>
+        <h1>緊緻小臉<br>刮痧神器組<small>FACE SCULPTING RITUAL</small></h1>
+      </div>
+    </div>
+    <p class="lead">以油養膚，喚醒肌膚自癒力。<br>一滴鎖水，刮走壓力，找回緊緻輪廓。</p>
+  </section>
+
+  <!-- 氛圍影片 (自動靜音循環) -->
+  <section class="mood">
+    <video src="videos/video2.mp4" poster="images/video2_poster.jpg" autoplay muted loop playsinline preload="metadata"></video>
+    <div class="overlay">
+      <div class="e">Your daily ritual</div>
+      <h2>每天三分鐘<br>把保養，變成一種享受</h2>
+    </div>
+  </section>
+
+  <!-- 痛點引言 -->
+  <section class="quote reveal">
+    <div class="mark">&ldquo;</div>
+    <p class="big">臉部保養程序，<br>真的越多越好嗎？<br><br>其實，肌膚需要的是<br><em>精準的簡單保養</em></p>
+  </section>
+
+  <!-- 三大主張 -->
+  <section class="pillars">
+    <div class="center reveal"><div class="eyebrow">Why d'odeurs</div><h2 class="htitle">減法保養，不簡單</h2><div class="rule"></div></div>
+    <div class="pcol">
+      <div class="pcard reveal"><span class="n">01</span><h3>以油養膚</h3><p>全齡膚質適用，平衡油脂、喚醒肌膚自癒力。質地滋潤不黏膩，輕薄好吸收。</p></div>
+      <div class="pcard reveal"><span class="n">02</span><h3>1094 抗氧化專利</h3><p>獲經濟部專利認證的黃金比例複方，多重抗氧化分子協同鎖水，延緩肌膚年齡。</p></div>
+      <div class="pcard reveal"><span class="n">03</span><h3>一瓶搞定</h3><p>完美取代精華液、乳液與乳霜。減去繁複步驟，把保養交給真正有效的那一滴。</p></div>
+    </div>
+  </section>
+
+  <!-- 破除疑慮 -->
+  <section class="myth">
+    <div class="center reveal"><div class="eyebrow">No Worries</div><h2 class="htitle">聽到「油保養」，<br>先別擔心</h2><div class="rule"></div></div>
+    <div class="reveal">
+      <div class="row"><div class="q">擔心<b>難吸收？</b></div><div class="a">質地輕盈，搭配按摩即刻滲透，透亮不悶。</div></div>
+      <div class="row"><div class="q">擔心<b>會長痘？</b></div><div class="a">純植萃複方，平衡油水、修護肌底，不堵塞毛孔。</div></div>
+      <div class="row"><div class="q">擔心<b>油肌不適用？</b></div><div class="a">外油內乾更需要它，補水鎖油、調回油水平衡。</div></div>
+    </div>
+  </section>
+
+  <!-- 成分 -->
+  <section class="ingredients">
+    <div class="center reveal"><div class="eyebrow">Rare Botanicals</div><h2 class="htitle">珍稀植萃，複方精萃</h2><div class="rule"></div></div>
+    <div class="igrid reveal">
+      <figure><img src="images/ingr_lotus.jpg" alt="珍稀蓮花"><figcaption><span class="en">Lotus</span><span class="zh">珍稀蓮花</span></figcaption></figure>
+      <figure><img src="images/ingr_pear.jpg" alt="仙人掌籽油"><figcaption><span class="en">Prickly Pear</span><span class="zh">仙人掌籽油</span></figcaption></figure>
+      <figure><img src="images/ingr_baobab.jpg" alt="猴麵包樹油"><figcaption><span class="en">Baobab</span><span class="zh">猴麵包樹油</span></figcaption></figure>
+    </div>
+    <p class="desc reveal">嚴選蓮花、仙人掌籽油、猴麵包樹油等多種珍稀植萃，<br>淬鍊出絕佳鎖水力與抗氧化能量。</p>
+  </section>
+
+  <!-- 保養儀式 demo 影片 -->
+  <section class="ritual">
+    <div class="center reveal"><div class="eyebrow">The Ritual</div><h2 class="htitle">跟著做，三分鐘<br>刮出緊緻小臉</h2><div class="rule"></div>
+      <span class="tag">▶ 真人實際示範</span>
+    </div>
+    <div class="vwrap reveal">
+      <video src="videos/video1.mp4" poster="images/video1_poster.jpg" controls playsinline preload="metadata"></video>
+    </div>
+    <div class="steps reveal">
+      <div class="step"><div class="no">1</div><div class="tx"><b>淨膚．輕拍</b>　清潔後，取玫瑰／茉莉精露輕拍全臉。</div></div>
+      <div class="step"><div class="no">2</div><div class="tx"><b>滴油．刮痧</b>　取 3–5 滴 1094 精華油，搭配溫潤經絡梳點對點紓壓，180 秒喚醒輪廓。</div></div>
+      <div class="step"><div class="no">3</div><div class="tx"><b>溼敷．鎖水</b>　再輕拍精露或溼敷 10 分鐘，鎖住透亮潤澤。</div></div>
+    </div>
+  </section>
+
+  <!-- 數據 -->
+  <section class="stats">
+    <div class="center reveal"><div class="eyebrow" style="color:var(--gold-l)">Proven</div><h2 class="htitle">數據，會說話</h2><div class="rule"></div></div>
+    <div class="grid3 reveal">
+      <div class="stat"><div class="num">99.9<small style="font-size:18px">%</small></div><div class="lab">實測滿意度</div></div>
+      <div class="stat"><div class="num">9<small style="font-size:18px">成+</small></div><div class="lab">回購率</div></div>
+      <div class="stat"><div class="num">1094</div><div class="lab">抗氧化專利</div></div>
+    </div>
+    <div class="reveal"><span class="seal">★ 臺灣輔助醫學醫學會 推薦</span></div>
+  </section>
+
+  <!-- 愛用者分享 -->
+  <section class="reviews">
+    <div class="center reveal"><div class="eyebrow">Real Reviews</div><h2 class="htitle">她們，回不去了</h2><div class="rule"></div></div>
+    <div class="rcard reveal"><div class="top"><div class="av">陳</div><div class="who"><b>陳小姐</b><div class="st">★★★★★</div></div></div>
+      <p>本來擔心用油會悶會長痘，結果保養一陣子，到晚上臉也不厚重、不出油，膚色變得很均勻，真的回不去了！</p></div>
+    <div class="rcard reveal"><div class="top"><div class="av">S</div><div class="who"><b>Sharon</b><div class="st">★★★★★</div></div></div>
+      <p>以前一次要擦好幾瓶，現在一瓶 1094 就搞定。皮膚科醫生還說我膚況變穩定，重點是不黏、不長痘，超推！</p></div>
+    <div class="rcard reveal"><div class="top"><div class="av">周</div><div class="who"><b>周小姐</b><div class="st">★★★★★</div></div></div>
+      <p>很滿意它的滋潤度，稍微按摩一下臉就跟著有光澤，妝感也更服貼。出門前一定先用，CP 值超高！</p></div>
+  </section>
+
+  <!-- 套組內容 -->
+  <section class="set">
+    <div class="center reveal"><div class="eyebrow">The Set</div><h2 class="htitle">神器組．內容物</h2><div class="rule"></div></div>
+    <img class="reveal" src="images/product.jpg" alt="抗氧化1094精華油 30mL">
+    <div class="reveal">
+      <p class="item"><b>抗氧化 1094 精華油</b>　30mL ／ 1 瓶</p>
+      <p class="item"><b>溫潤經絡梳</b>　1 個</p>
+      <p class="small">＊經絡梳搭配精華油使用，點對點紓壓，刮出緊緻輪廓（用法見上方示範影片）。</p>
+    </div>
+  </section>
+
+  <!-- LIZA -->
+  <section class="endorse">
+    <img class="reveal" src="images/liza.jpg" alt="芳療教母 LIZA 沈莉莎 嚴選">
+    <div class="reveal">
+      <div class="eyebrow center">Curated by</div>
+      <div class="nm">芳療教母 LIZA 嚴選</div>
+      <div class="ti">IFA 國際芳療校長　沈莉莎</div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="faq">
+    <div class="center reveal"><div class="eyebrow">FAQ</div><h2 class="htitle">常見問題</h2><div class="rule"></div></div>
+    <div class="reveal">
+      <details open><summary>為什麼叫「1094」？</summary><p>因具抗氧化能力獲經濟部專利認證，專利編號含 1094 而得名。多次實驗證實具優異的清除自由基與抗氧化能力。</p></details>
+      <details><summary>可以取代哪些保養程序？</summary><p>1094 為植萃複方精華油，兼具保養精華與油類鎖水功效，一瓶即可代替精華液、乳液、乳霜。</p></details>
+      <details><summary>使用上需要注意什麼？</summary><p>全齡全年皆可使用，依季節與膚況取用 3–5 滴。含微量羅勒、馬鬱蘭、迷迭香、百里香、丁香精油，蠶豆症患者請勿使用。</p></details>
+    </div>
+  </section>
+
+  <!-- 規格 -->
+  <section class="spec">
+    <div class="center reveal"><div class="eyebrow">Specification</div><h2 class="htitle">產品規格</h2><div class="rule"></div></div>
+    <table class="reveal">
+      <tr><td class="k">品名</td><td>抗氧化 1094 精華油</td></tr>
+      <tr><td class="k">容量</td><td>30mL</td></tr>
+      <tr><td class="k">用途</td><td>潤澤肌膚</td></tr>
+      <tr><td class="k">主成分</td><td>荷荷芭油、向日葵油、猴麵包樹油、仙人掌籽油、白玉蘭、佛手柑、廣藿香、真正薰衣草、大馬士革玫瑰、藍／粉紅／白色蓮花、永久花、甜羅勒、迷迭香、丁香花苞、沉香醇百里香、野馬鬱蘭、印度羅勒、白珠樹等多種植萃精油</td></tr>
+      <tr><td class="k">保存方式</td><td>置於乾燥陰涼處，避免陽光直射</td></tr>
+      <tr><td class="k">保存期限</td><td>三年（拆封後建議半年內用畢）</td></tr>
+    </table>
+  </section>
+
+  <!-- 結帳 + 折扣碼 -->
+  <section class="checkout" id="buy">
+    <div class="reveal">
+      <div class="name">緊緻小臉刮痧神器組</div>
+      <div class="sp">抗氧化 1094 精華油 30mL ＋ 溫潤經絡梳 ×1</div>
+
+      <div class="saveTag" id="saveTag"></div>
+      <div class="priceBox">
+        <div class="po" id="poLine">市售價 <s>NT$2,770</s></div>
+        <div class="pn"><small>NT$</small><span id="bigPrice">2,770</span></div>
+      </div>
+
+      <div class="coupon">
+        <div class="lab">🎁 輸入網紅折扣碼，享專屬優惠價</div>
+        <div class="row">
+          <input id="codeInput" type="text" inputmode="numeric" placeholder="輸入折扣碼" autocomplete="off">
+          <button id="applyBtn" type="button">套用</button>
+        </div>
+        <div class="msg" id="codeMsg"></div>
+      </div>
+
+      <a class="btn-line" id="lineBtn" href="LINE_連結放這" target="_blank" rel="noopener"> 立即加 LINE 下單</a>
+      <p class="hint">點擊後將開啟 LINE，由專人為您完成訂購 💚</p>
+    </div>
+  </section>
+
+  <footer>
+    <div class="lg">d'odeurs</div>
+    <div class="slo">精萃美植，油然心生</div>
+    滴一滴，高效精油養生之道
+    <div class="note">
+      產品編號：DU0498260018<br>
+      本產品含微量羅勒、馬鬱蘭、迷迭香、百里香、丁香精油，蠶豆症患者請勿使用。<br>
+      僅供外用，使用後如有不適請立即停用並諮詢專業醫師。實際到貨日以廠商出貨時間為主。
+    </div>
+  </footer>
+</div>
+
+<!-- 底部固定條 -->
+<div class="stickybar">
+  <div class="p">
+    <span class="o" id="barOld">市售 <s>NT$2,770</s></span><br>
+    <span class="n">NT$<span id="barPrice">2,770</span></span>
+  </div>
+  <a href="LINE_連結放這" target="_blank" rel="noopener"> 立即下單</a>
+</div>
+
+<script>
+  /* 滾動淡入 */
+  const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target);}}),{threshold:.12});
+  document.querySelectorAll('.reveal').forEach(el=>io.observe(el));
+
+  /* ===== 網紅折扣碼 ===== */
+  const VALID_CODE = "141534";   // 折扣碼
+  const LIST_PRICE = 2770;       // 市售價
+  const DEAL_PRICE = 2380;       // 折後價
+  const fmt = n => n.toLocaleString('en-US');
+
+  const codeInput=document.getElementById('codeInput');
+  const applyBtn=document.getElementById('applyBtn');
+  const codeMsg=document.getElementById('codeMsg');
+  const bigPrice=document.getElementById('bigPrice');
+  const poLine=document.getElementById('poLine');
+  const saveTag=document.getElementById('saveTag');
+  const barPrice=document.getElementById('barPrice');
+  const barOld=document.getElementById('barOld');
+  let applied=false;
+
+  function applyCode(){
+    const v=codeInput.value.trim();
+    if(applied){return;}
+    if(v===VALID_CODE){
+      applied=true;
+      const save=LIST_PRICE-DEAL_PRICE;
+      bigPrice.textContent=fmt(DEAL_PRICE);
+      poLine.innerHTML='市售價 <s>NT$'+fmt(LIST_PRICE)+'</s>';
+      saveTag.textContent='折扣碼 '+VALID_CODE+' 已套用 ‧ 立省 NT$'+fmt(save);
+      saveTag.classList.add('show');
+      barPrice.textContent=fmt(DEAL_PRICE);
+      barOld.innerHTML='市售 <s>NT$'+fmt(LIST_PRICE)+'</s>';
+      codeMsg.className='msg ok';
+      codeMsg.textContent='✓ 折扣成功！優惠價 NT$'+fmt(DEAL_PRICE)+'，下單時請報折扣碼 '+VALID_CODE;
+      applyBtn.textContent='已套用';
+      applyBtn.style.background='#5a8f6a';
+      codeInput.disabled=true;
+    }else{
+      codeMsg.className='msg err';
+      codeMsg.textContent='✗ 折扣碼不正確，請再確認一次';
+    }
+  }
+  applyBtn.addEventListener('click',applyCode);
+  codeInput.addEventListener('keydown',e=>{if(e.key==='Enter')applyCode();});
+</script>
+</body>
+</html>

@@ -190,6 +190,33 @@
   .stickybar .p .o s{opacity:.8;}
   .stickybar .p .n{color:var(--price-red);font-size:21px;font-weight:700;font-family:"Cormorant Garamond",serif;}
   .stickybar a{flex:1;display:flex;align-items:center;justify-content:center;gap:6px;background:var(--line-green);color:#fff;text-decoration:none;font-weight:700;font-size:16px;padding:13px;border-radius:12px;}
+
+  /* 專利認證 */
+  .patent{background:var(--cream);text-align:center;}
+  .patent .pimg{width:100%;max-width:360px;margin:0 auto 22px;border-radius:14px;box-shadow:0 12px 30px rgba(31,70,63,.12);}
+  .patent .ptext{font-size:15px;color:#5f5a52;}
+  .patent .ptext b{color:var(--green);font-family:"Noto Serif TC",serif;}
+  .patent .cert{margin:26px auto 0;max-width:160px;}
+  .patent .cert img{width:100%;border:1px solid #e6dccf;border-radius:6px;box-shadow:0 4px 14px rgba(0,0,0,.06);}
+  .patent .cert figcaption{font-size:12px;color:var(--muted);margin-top:8px;letter-spacing:.5px;}
+
+  /* 使用情境 */
+  .scenes{background:var(--blush-bg);}
+  .sgrid{display:grid;grid-template-columns:1fr 1fr;gap:12px;}
+  .scard{background:#fff;border-radius:12px;padding:24px 16px;text-align:center;box-shadow:0 6px 18px rgba(120,90,60,.06);}
+  .scard .ic{font-size:26px;}
+  .scard h4{font-family:"Noto Serif TC",serif;color:var(--green);font-size:17px;font-weight:500;margin:8px 0 6px;}
+  .scard p{font-size:13px;color:var(--muted);line-height:1.7;}
+
+  /* 聰明疊搭 */
+  .combos{background:var(--cream);}
+  .combo{display:flex;gap:14px;align-items:flex-start;padding:18px 0;border-bottom:1px solid #efe6db;}
+  .combo:last-child{border-bottom:none;}
+  .combo .cn{flex:0 0 40px;height:40px;border-radius:50%;background:var(--blush);color:var(--green);display:flex;align-items:center;justify-content:center;font-size:24px;font-family:"Cormorant Garamond",serif;}
+  .combo .ct{flex:1;}
+  .combo .ct b{color:var(--green);font-family:"Noto Serif TC",serif;font-weight:500;font-size:16px;}
+  .combo .ct .up{display:inline-block;background:var(--green);color:#fff;font-size:11px;padding:2px 9px;border-radius:10px;margin-left:8px;letter-spacing:1px;vertical-align:middle;}
+  .combo .ct p{font-size:14px;color:#5f5a52;margin-top:4px;}
 </style>
 </head>
 <body>
@@ -258,6 +285,14 @@
     <p class="desc reveal">嚴選蓮花、仙人掌籽油、猴麵包樹油等多種珍稀植萃，<br>淬鍊出絕佳鎖水力與抗氧化能量。</p>
   </section>
 
+  <!-- 獨家專利認證 -->
+  <section class="patent">
+    <div class="center reveal"><div class="eyebrow">Patented</div><h2 class="htitle">獨家 1094<br>抗氧化專利認證</h2><div class="rule"></div></div>
+    <img class="pimg reveal" src="images/oildrop.jpg" alt="抗氧化1094精華油 滴油特寫">
+    <p class="ptext reveal">實驗多重檢測證實，黃金比例的複方精華油，<br>抗氧化功效比單方精油更顯著。<br><br><b>滴一滴，精萃美植</b><br>恢復肌膚呼吸與平衡，打造你的凍齡美肌。</p>
+    <figure class="cert reveal"><img src="images/patent.jpg" alt="中華民國專利證書"><figcaption>經濟部專利認證 ‧ 編號含 1094</figcaption></figure>
+  </section>
+
   <!-- 保養儀式 demo 影片 -->
   <section class="ritual">
     <div class="center reveal"><div class="eyebrow">The Ritual</div><h2 class="htitle">跟著做，三分鐘<br>刮出緊緻小臉</h2><div class="rule"></div>
@@ -270,6 +305,27 @@
       <div class="step"><div class="no">1</div><div class="tx"><b>淨膚．輕拍</b>　清潔後，取玫瑰／茉莉精露輕拍全臉。</div></div>
       <div class="step"><div class="no">2</div><div class="tx"><b>滴油．刮痧</b>　取 3–5 滴 1094 精華油，搭配溫潤經絡梳點對點紓壓，180 秒喚醒輪廓。</div></div>
       <div class="step"><div class="no">3</div><div class="tx"><b>溼敷．鎖水</b>　再輕拍精露或溼敷 10 分鐘，鎖住透亮潤澤。</div></div>
+    </div>
+  </section>
+
+  <!-- 多種使用情境 -->
+  <section class="scenes">
+    <div class="center reveal"><div class="eyebrow">More Ways</div><h2 class="htitle">一瓶在手<br>從臉到髮都能寵愛</h2><div class="rule"></div></div>
+    <div class="sgrid reveal">
+      <div class="scard"><div class="ic">🌿</div><h4>日日養膚</h4><p>洗臉後取 3–5 滴，取代精華液、乳液、乳霜。</p></div>
+      <div class="scard"><div class="ic">💄</div><h4>妝前保養</h4><p>妝前打底，或加一滴於底妝，提升服貼與光澤。</p></div>
+      <div class="scard"><div class="ic">✨</div><h4>重點滋潤</h4><p>唇部、身體乾燥龜裂處，重點修護不卡乾。</p></div>
+      <div class="scard"><div class="ic">💆‍♀️</div><h4>秀髮滋養</h4><p>抹於髮絲，柔順光亮、散發自然清香。</p></div>
+    </div>
+  </section>
+
+  <!-- 聰明疊搭 -->
+  <section class="combos">
+    <div class="center reveal"><div class="eyebrow">Smart Mix</div><h2 class="htitle">聰明疊搭<br>效果再加倍</h2><div class="rule"></div></div>
+    <div class="reveal">
+      <div class="combo"><div class="cn">＋</div><div class="ct"><b>純露／化妝水</b><span class="up">保濕鎖水 UP</span><p>與保濕因子協同保養肌膚，達到油水平衡，養出健康美顏肌。</p></div></div>
+      <div class="combo"><div class="cn">＋</div><div class="ct"><b>乳霜</b><span class="up">抗氧化 UP</span><p>與乳霜充分混合塗抹於臉部，補足肌膚所需精華、提升滋潤效果。</p></div></div>
+      <div class="combo"><div class="cn">＋</div><div class="ct"><b>底妝</b><span class="up">持妝 UP</span><p>與底妝充分混合塗抹於臉部，增強底妝滋潤度、更貼合肌膚。</p></div></div>
     </div>
   </section>
 
